@@ -4,13 +4,13 @@ import java.lang.String;
 public class MyPerson {
 
     public String name;
-    MyPerson(){}
+    //MyPerson(){}
 
     public MyPerson(String name) {
         this.name = name;
     }
 
-    //@override
+    @Override
     public boolean equals(Object obj) {
         if (obj instanceof MyPerson) {
             MyPerson p = (MyPerson) obj;
