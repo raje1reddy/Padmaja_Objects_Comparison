@@ -27,7 +27,8 @@ import java.io.*;
 }
 */
 
-@override
+
+//@Override
 public class DeleteElementsFromArrayList2 {
     public static void main(String args[]){
         ArrayList<MyPerson> myArrList = new ArrayList<MyPerson>();
@@ -43,6 +44,6 @@ public class DeleteElementsFromArrayList2 {
         myArrList.add(p3);
         myArrList.remove(new MyPerson ("Java"));
         for (MyPerson element:myArrList)
-            System.out.println(element);
+            System.out.println(element.name);
     }
 }

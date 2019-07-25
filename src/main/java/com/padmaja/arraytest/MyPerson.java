@@ -3,9 +3,10 @@ package com.padmaja.arraytest;
 import java.lang.String;
 public class MyPerson {
 
-    String name;
+    public String name;
+    MyPerson(){}
 
-    MyPerson(String name) {
+    public MyPerson(String name) {
         this.name = name;
     }
 
